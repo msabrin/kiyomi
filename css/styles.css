@@ -1,0 +1,121 @@
+#title {
+   background-color: #220958;
+   background-image: linear-gradient(124deg, #220958 19%, #651b85 50%, #9611a4 72%, #77092a 92%); }
+
+
+h1 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+font-size: 3.5rem;
+line-height: 1.5;}
+
+h3 {font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight:900;}
+
+h2 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 3rem;
+line-height: 1.5;}
+
+p {color: rgb(105, 104, 104);}
+
+.container-fluid {padding: 3% 15% 3%;}
+
+.container-fluide{padding: 3% 15% 13.5%;}
+
+.navbar-brand {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;}
+
+.navbar {padding: 0 0 4.5rem;}
+
+.nav-item {padding: 0 15px;}
+
+.nav-link {font-size: 2rem;
+font-family:'Courier New', Courier, monospace;}
+
+.title-image {width: 450px;
+transform: rotate(25deg);
+position: absolute;
+right: 650px;}
+
+.download-button {margin: 5% 3% 5% 0;}
+
+#features {padding: 7% 15%;
+background-color: #f092ad;
+background-image: linear-gradient(150deg, #f092ad 10%, #ffa1f4 28%, #e39bff 35%, #85bae8 80%);
+position: relative;
+}
+
+.feature-box {text-align: center;
+padding: 5%;}
+
+.icon:hover {color: #651b85;}
+
+.icon{height: 150px; 
+margin-bottom: 1rem;}
+
+#testimonials {padding: 7% 15%;
+text-align: center; 
+background-color: #220958;
+   background-image: linear-gradient(124deg, #220958 19%, #651b85 50%, #9611a4 72%, #77092a 92%);
+color: white; 
+position: relative;}
+
+.testimonial-image {width: 10%;
+border-radius: 100%;
+margin: 20px;}
+
+#press {text-align: center;
+padding: 8%;
+background-color: #f092ad;
+background-image: linear-gradient(150deg, #f092ad 10%, #ffa1f4 28%, #e39bff 35%, #85bae8 80%);
+position: relative;}
+
+.press-logo {width: 15%;
+margin: 20px 20px 50px;}
+
+.carousel-item {padding: 7% 15%;}
+
+#pricing {padding: 100px;
+text-align: center;
+background-color: #220958;
+background-image: linear-gradient(124deg, #220958 19%, #651b85 50%, #9611a4 72%, #77092a 92%);
+color: white;
+position: relative;}
+
+.pricing-clm {padding: 3% 2%;
+color: rgb(0, 0, 0);
+}
+
+.card-body {background-color: #f092ad;
+background-image: linear-gradient(150deg, #f092ad 10%, #ffa1f4 28%, #e39bff 35%, #85bae8 80%);
+}
+
+.card-header {background-color: #470762;
+background-image: linear-gradient(249deg, #470762 30%, #6a083d 100%);    
+color: white;}
+
+.card {background-color: #6c0cb5;}
+
+#cta {background-color: #f092ad;
+    background-image: linear-gradient(150deg, #f092ad 10%, #ffa1f4 28%, #e39bff 35%, #85bae8 80%);
+    padding: 7% 15%;
+text-align: center;}
+
+    .cta-heading {font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+line-height: 1.5;}
+
+#footer {padding: 5% 15%;
+text-align: center;
+background-color: #2e053d;
+background-image: linear-gradient(284deg, #2e053d 31%, #430527 100%);
+}
+
+.social-media {margin: 20px;}
+
+@media (max-width: 1837px){
+    #title {text-align: center;}
+    .title-image {position: static;
+    transform: rotate(0);}
+}
